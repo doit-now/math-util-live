@@ -24,6 +24,10 @@ public class MathUtilLive {
         System.out.println("expected: 0! = 1;   actual: " + MathUtil.getFactorial(0));
         //MathUtil.getFactorial(-5); ném ngoại lệ thật rồi, ai biểu đưa cà chớn chi!!!
         
+        //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CODE LÊN SEVER 5:35PM 7/7/2021
+        
+        System.out.println("expected: 1! = 1;   actual: " + MathUtil.getFactorial(1));
+        System.out.println("expected: 3! = 6;   actual: " + MathUtil.getFactorial(3));
         
         //kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
         //expected value: 5! = 120
